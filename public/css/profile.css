@@ -1,0 +1,104 @@
+#profile, #followers{
+  width: 90%;
+  padding: 10px;
+  background:transparent;
+  text-align: center;
+}
+#profile{
+    padding-top: 20vh;
+}
+#profile img{
+    width: 300px;
+    height: 300px;
+    border:3px solid lightcoral;
+    border-radius: 50%;
+    margin-bottom: 3%;
+    margin-left:-5%;
+    text-align: center;
+    overflow: hidden;
+}
+#profile h1{
+    margin-left:-5%;
+    font-size: 60px;
+}
+#followers table{
+   width: 60%;
+   padding: 5px;
+   color:#000;
+   border-collapse: collapse;
+   font-size: 25px;
+   margin-bottom: 5%;
+}
+tr:nth-child(1){
+    font-weight: bolder;
+}
+tr:nth-child(2){
+    font-style: italic;
+}
+hr{
+    width: 80%;
+    border:2px solid black;
+}
+#gallery{
+    width: 100%;
+    background: transparent;
+    height: 100vh;
+    text-align: center;
+    padding:20px;
+}
+.gallery-post{
+    width: 28%;
+    float: left;
+    margin:2%;
+}
+.gallery-post img{
+    width: 100%;
+    height: 350px;
+}
+.overlay{
+    position: absolute;
+    width: 22.6%;
+    height: 350px;
+    background:#000;
+    transition: 1s ease;
+    color: lightcoral;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 400px;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 1199px){
+    .overlay{
+        width: 28.6%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .gallery-post img{
+        height: 250px;
+    }
+    .overlay{
+        height: 250px;
+        line-height: 270px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .gallery-post img{
+        height: 180px;
+    }
+    .overlay{
+        height:180px;
+        line-height: 170px;
+    }
+    #followers table{
+        width: 80%;
+    }
+    #followers td{
+        padding-left:20px;
+        padding-right:40px;
+    }
+}

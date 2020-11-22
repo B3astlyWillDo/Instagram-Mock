@@ -1,0 +1,78 @@
+#register{
+    width: 50%;
+    position: relative;
+    padding: 5%;
+    padding-bottom: 3%;
+    top:15vh;
+    border:1.5px solid ;
+    color:#000;
+    background:lightgray;
+}
+label{
+    font-size:30px;
+}
+input{
+    margin-right:50px;
+    height: 50px;
+    font-size: 23px;
+    width: 50%;
+    color:#000;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+input:focus{
+    border:2px solid;
+    border-color: lightcoral;
+    color:lightcoral;
+    font-size: 20px;
+    transition: 0.2s ease;
+    width: 80%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin-left:0;
+    font-size: 20px;
+    border:2px solid black;
+    background:transparent;
+    transition: 0.5s ease;
+    cursor:pointer;
+    border-radius: 20px;
+}
+button:hover{
+    background:lightcoral;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#register h1{
+      font-size: 40px;
+}
+#register hr{
+    border:2px solid black;
+    margin:0;
+}
+.login-link{
+    font-size: 26px;
+}
+#register span{
+    color:red;
+    font-size: 22px;
+}
+.alert-success{
+    width: 70%;
+    text-align: center;
+    background:lightgreen;
+    color:black;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1050px){
+    #register{
+        width: 60%;
+    }
+    #register input{
+        width: 70%;
+    }
+    #register input:focus{
+        width: 90%;
+    }
+}

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 12, 2020 at 12:30 PM
+-- Generation Time: Nov 22, 2020 at 05:37 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.31
 
@@ -65,10 +65,9 @@ CREATE TABLE `objave` (
 
 INSERT INTO `objave` (`objavaid`, `clanid`, `objavaime`, `objavalink`, `brsvidjanja`) VALUES
 (1, 1, 'Polarna svetlost', 'nlights.jfif', 50),
-(2, 1, 'Pustinja', 'desert.jpg', 90),
 (5, 1, 'New York', '5ee29ae6500525.91555487.jpg', 0),
 (6, 1, 'Miljacka', '5ee29c121b7d90.19169590.jpg', 0),
-(7, 12, 'Selfie', '5ee34b13256e41.74514451.jpg', 0);
+(9, 1, 'Bobogun', '5ee5eb78bf6e75.30605106.jpg', 0);
 
 --
 -- Indexes for dumped tables
@@ -100,7 +99,7 @@ ALTER TABLE `clanovi`
 -- AUTO_INCREMENT for table `objave`
 --
 ALTER TABLE `objave`
-  MODIFY `objavaid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `objavaid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
